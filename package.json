@@ -1,0 +1,31 @@
+{
+  "name": "3d-living-room",
+  "version": "1.0.0",
+  "description": "一个基于Three.js的3D客厅交互式展示应用，允许用户浏览和交互3D客厅场景中的物体",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["three.js", "3d", "webgl", "vite", "living-room", "interactive"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/3d-living-room.git"
+  },
+  "homepage": "https://github.com/yourusername/3d-living-room",
+  "bugs": {
+    "url": "https://github.com/yourusername/3d-living-room/issues"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/three": "^0.174.0",
+    "vite": "^6.2.2"
+  },
+  "dependencies": {
+    "three": "^0.174.0"
+  }
+}

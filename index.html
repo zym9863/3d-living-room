@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D客厅展示</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="info">
+        <h1>3D客厅展示</h1>
+        <p>使用鼠标拖动可旋转视角，滚轮可缩放，右键拖动可平移</p>
+        <div id="object-info">点击物体查看信息</div>
+    </div>
+    <div id="container"></div>
+    <div id="loading">
+        <div class="spinner"></div>
+        <div class="loading-text">加载中...</div>
+    </div>
+
+    <!-- 使用Vite的方式引入脚本 -->
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
