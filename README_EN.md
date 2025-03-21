@@ -79,7 +79,6 @@ The built files will be in the `dist` directory.
 ├── public/             # Static assets
 ├── index.html          # HTML entry file
 ├── style.css          # Global styles
-├── scene.glb          # 3D model file
 ├── vite.config.js     # Vite configuration
 ├── package.json       # Project dependencies and scripts
 └── README.md          # Project documentation

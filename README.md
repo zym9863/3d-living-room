@@ -79,7 +79,6 @@ yarn build
 ├── public/             # 静态资源
 ├── index.html          # HTML入口文件
 ├── style.css           # 全局样式
-├── scene.glb           # 3D模型文件
 ├── vite.config.js      # Vite配置
 ├── package.json        # 项目依赖和脚本
 └── README.md           # 项目文档
