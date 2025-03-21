@@ -114,7 +114,7 @@ function loadModel() {
     
     // 使用相对路径加载模型，并添加详细日志
     console.log('尝试加载模型文件: scene.glb');
-    loader.load('./scene.glb', function(gltf) {
+    loader.load('./public/scene.glb', function(gltf) {
         console.log('模型加载成功!');
         livingRoom = gltf.scene;
         
