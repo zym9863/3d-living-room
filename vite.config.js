@@ -6,11 +6,14 @@ export default {
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    // 确保public目录下的文件被正确复制到构建目录
+    copyPublicDir: true,
     // 生产环境移除console和debugger
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true,
+        // 保留console以便调试模型加载问题
+        drop_console: false,
         drop_debugger: true,
       },
     },

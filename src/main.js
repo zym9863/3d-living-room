@@ -112,9 +112,10 @@ function loadModel() {
         document.getElementById('loading').innerHTML = `<div class="loading-text">加载失败，请刷新页面重试</div>`;
     };
     
-    // 使用相对路径加载模型，并添加详细日志
+    // 使用正确的路径加载模型，并添加详细日志
     console.log('尝试加载模型文件: scene.glb');
-    loader.load('./public/scene.glb', function(gltf) {
+    // 在构建环境中，模型文件会被复制到根目录下，所以使用相对路径
+    loader.load('./scene.glb', function(gltf) {
         console.log('模型加载成功!');
         livingRoom = gltf.scene;
         
